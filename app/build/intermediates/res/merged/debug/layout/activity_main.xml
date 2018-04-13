@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/btn_gray_normal"
+    android:orientation="vertical"
+    android:id="@+id/aidu"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="请点击选择要使用的服务："
+        android:id="@+id/textView3"
+        android:layout_weight="0.04"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="ASR(语音识别)"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal"
+        android:onClick="AsrDemo"
+        android:layout_weight="0.04" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="NLU(语意理解)"
+        android:id="@+id/button4"
+        android:layout_gravity="center_horizontal"
+        android:onClick="NluDemo"
+        android:layout_weight="0.04" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="TTS(语音合成)"
+        android:id="@+id/button5"
+        android:layout_gravity="center_horizontal"
+        android:onClick="TtsDemo"
+        android:layout_weight="0.04"/>
+</LinearLayout>

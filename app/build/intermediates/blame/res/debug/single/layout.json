@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "H:\\thirdcode\\Android_SDK_1.1.2\\Android_SDK_1.1.2\\PublicDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_public_nlu.xml",
+        "source": "H:\\thirdcode\\Android_SDK_1.1.2\\Android_SDK_1.1.2\\PublicDemo\\app\\src\\main\\res\\layout\\activity_public_nlu.xml"
+    },
+    {
+        "merged": "H:\\thirdcode\\Android_SDK_1.1.2\\Android_SDK_1.1.2\\PublicDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_public_tts.xml",
+        "source": "H:\\thirdcode\\Android_SDK_1.1.2\\Android_SDK_1.1.2\\PublicDemo\\app\\src\\main\\res\\layout\\activity_public_tts.xml"
+    },
+    {
+        "merged": "H:\\thirdcode\\Android_SDK_1.1.2\\Android_SDK_1.1.2\\PublicDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "H:\\thirdcode\\Android_SDK_1.1.2\\Android_SDK_1.1.2\\PublicDemo\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "H:\\thirdcode\\Android_SDK_1.1.2\\Android_SDK_1.1.2\\PublicDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_public_asr.xml",
+        "source": "H:\\thirdcode\\Android_SDK_1.1.2\\Android_SDK_1.1.2\\PublicDemo\\app\\src\\main\\res\\layout\\activity_public_asr.xml"
+    }
+]

@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root_layout"
+    android:background="#ebebeb"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <FrameLayout
+        android:id="@+id/bar_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_weight="0.06">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#C0C0C0" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="169dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <LinearLayout
+                android:id="@+id/textlayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="输入文本进行语音合成(TTS输入单句不能超过100个字符):"
+                    android:textColor="@color/black_deep"
+                    android:id="@+id/textView4"
+                    android:layout_weight="378.68" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:inputType="textMultiLine"
+                    android:id="@+id/UserContent_tts"
+                    android:background="@color/white_background"
+                    android:textColor="@color/black_deep"
+                    android:layout_weight="370"
+                    android:layout_marginBottom="5dp"
+                    android:hint="TTS输入单句不能超过100个字符！"
+                    android:layout_margin="5dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+        <!--
+        </LinearLaFyout>
+        -->
+    </FrameLayout>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="播放语音结果"
+        android:id="@+id/send_tts"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

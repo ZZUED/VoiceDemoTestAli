@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="__local_jars__:H.\thirdcode\Android_SDK_1.1.2\Android_SDK_1.1.2\PublicDemo\app\libs\NlsClientSdk.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/NlsClientSdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
