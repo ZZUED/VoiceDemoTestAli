@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.k0shk0sh:PermissionHelper-1.1.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.k0shk0sh/PermissionHelper/1.1.0/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.k0shk0sh/PermissionHelper/1.1.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.k0shk0sh/PermissionHelper/1.1.0/b416032d1147ef9c2d726659da3b6d12aa2b1fe8/PermissionHelper-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
